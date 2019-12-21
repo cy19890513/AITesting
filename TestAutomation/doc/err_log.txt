@@ -1,0 +1,610 @@
+Picture Fail :
+  - Please try again.
+  - <html>
+        <head><title>502 Bad Gateway</title></head>
+        <body bgcolor="white">
+        <center><h1>502 Bad Gateway</h1></center>
+        </body>
+    </html>
+  - <html>
+        <head><title>504 Gateway Time-out</title></head>
+        <body bgcolor="white">
+        <center><h1>504 Gateway Time-out</h1></center>
+        </body>
+    </html>
+
+----------------------------------------------------------------------------------------
+
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building test 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ test ---
+[INFO] Deleting /Users/KK/Documents/Projects/AIAutomation/TestAutomation/test/target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/KK/Documents/Projects/AIAutomation/TestAutomation/test/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/KK/Documents/Projects/AIAutomation/TestAutomation/test/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/KK/Documents/Projects/AIAutomation/TestAutomation/test/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/KK/Documents/Projects/AIAutomation/TestAutomation/test/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ test ---
+[INFO] Surefire report directory: /Users/KK/Documents/Projects/AIAutomation/TestAutomation/test/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.sjsu.automation.test.AppTest
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@e2d56bf
+Sep 21, 2019 6:48:05 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+Test No. 1: Picture 1 is white router near sofa
+Test No. 2: Picture 2 failed: Please try again. | [Error]
+Test No. 3: Picture 3 is white router near sofa
+Test No. 4: Picture 1 failed: Please try again. | [Error]
+Test No. 5: Picture 2 is white router near sofa
+Test No. 6: Picture 3 is white router near sofa
+Test No. 7: Picture 1 is white router near sofa
+Test No. 8: Picture 2 is white router near sofa
+Test No. 9: Picture 3 is white router near sofa
+Test No. 10: Picture 1 is white router near sofa
+Test No. 11: Picture 2 is white router near sofa
+Test No. 12: Picture 3 is white router near sofa
+Test No. 13: Picture 1 is white router near sofa
+Test No. 14: Picture 2 is white router near sofa
+Test No. 15: Picture 3 is white router near sofa
+Test No. 16: Picture 1 is white router near sofa
+Test No. 17: Picture 2 is white router near sofa
+Test No. 18: Picture 3 is white router near sofa
+Test No. 19: Picture 1 is white router near sofa
+Test No. 20: Picture 2 is white router near sofa
+Test No. 21: Picture 3 is white router near sofa
+Test No. 22: Picture 1 is white router near sofa
+Test No. 23: Picture 2 is white router near sofa
+Test No. 24: Picture 3 is white router near sofa
+Test No. 25: Picture 1 is white router near sofa
+Test No. 26: Picture 2 is white router near sofa
+Test No. 27: Picture 3 is white router near sofa
+Test No. 28: Picture 1 failed: Please try again. | [Error]
+Test No. 29: Picture 2 is white router near sofa
+Test No. 30: Picture 3 is white router near sofa
+Test No. 31: Picture 1 is white router near sofa
+Test No. 32: Picture 2 is white router near sofa
+Test No. 33: Picture 3 is white router near sofa
+Test No. 34: Picture 1 failed: Please try again. | [Error]
+Test No. 35: Picture 2 is white router near sofa
+Test No. 36: Picture 3 is white router near sofa
+Test No. 37: Picture 1 is white router near sofa
+Test No. 38: Picture 2 is white router near sofa
+Test No. 39: Picture 3 is white router near sofa
+Test No. 40: Picture 1 is white router near sofa
+Test No. 41: Picture 2 is white router near sofa
+Test No. 42: Picture 3 is white router near sofa
+Test No. 43: Picture 1 is white router near sofa
+Test No. 44: Picture 2 is white router near sofa
+Test No. 45: Picture 3 is white router near sofa
+Test No. 46: Picture 1 is white router near sofa
+Test No. 47: Picture 2 is white router near sofa
+Test No. 48: Picture 3 is white router near sofa
+Test No. 49: Picture 1 is white router near sofa
+Test No. 50: Picture 2 is white router near sofa
+Test No. 51: Picture 3 is white router near sofa
+Test No. 52: Picture 1 is white router near sofa
+Test No. 53: Picture 2 is white router near sofa
+Test No. 54: Picture 3 is white router near sofa
+Test No. 55: Picture 1 is white router near sofa
+Test No. 56: Picture 2 is white router near sofa
+Test No. 57: Picture 3 is white router near sofa
+Test No. 58: Picture 1 is white router near sofa
+Test No. 59: Picture 2 is white router near sofa
+Test No. 60: Picture 3 is white router near sofa
+Test No. 61: Picture 1 is white router near sofa
+Test No. 62: Picture 2 is white router near sofa
+Test No. 63: Picture 3 is white router near sofa
+Test No. 64: Picture 1 is white router near sofa
+Test No. 65: Picture 2 is white router near sofa
+Test No. 66: Picture 3 is white router near sofa
+Test No. 67: Picture 1 is white router near sofa
+Test No. 68: Picture 2 is white router near sofa
+Test No. 69: Picture 3 is white router near sofa
+Test No. 70: Picture 1 is white router near sofa
+Test No. 71: Picture 2 is white router near sofa
+Test No. 72: Picture 3 is white router near sofa
+Test No. 73: Picture 1 is white router near sofa
+Test No. 74: Picture 2 is white router near sofa
+Test No. 75: Picture 3 is white router near sofa
+Test No. 76: Picture 1 is white router near sofa
+Test No. 77: Picture 2 is white router near sofa
+Test No. 78: Picture 3 is white router near sofa
+Test No. 79: Picture 1 is white router near sofa
+Test No. 80: Picture 2 is white router near sofa
+Test No. 81: Picture 3 is white router near sofa
+Test No. 82: Picture 1 is white router near sofa
+Test No. 83: Picture 2 is white router near sofa
+Test No. 84: Picture 3 is white router near sofa
+Test No. 85: Picture 1 is white router near sofa
+Test No. 86: Picture 2 is white router near sofa
+Test No. 87: Picture 3 failed: Please try again. | [Error]
+Test No. 89: Picture 2 is white router near sofa
+Test No. 90: Picture 3 is white router near sofa
+Test No. 91: Picture 1 is white router near sofa
+Test No. 92: Picture 2 is white router near sofa
+Test No. 93: Picture 3 is white router near sofa
+Test No. 94: Picture 1 is white router near sofa
+Test No. 95: Picture 2 is white router near sofa
+Test No. 96: Picture 3 is white router near sofa
+Test No. 97: Picture 1 is white router near sofa
+Test No. 98: Picture 2 is white router near sofa
+Test No. 99: Picture 3 is white router near sofa
+Test No. 100: Picture 1 failed: Please try again. | [Error]
+Test No. 101: Picture 2 is white router near sofa
+Test No. 102: Picture 3 is white router near sofa
+Test No. 103: Picture 1 is white router near sofa
+Test No. 104: Picture 2 is white router near sofa
+Test No. 105: Picture 3 is white router near sofa
+Test No. 106: Picture 1 is white router near sofa
+Test No. 107: Picture 2 is white router near sofa
+Test No. 108: Picture 3 failed: Please try again. | [Error]
+Test No. 109: Picture 1 is white router near sofa
+Test No. 110: Picture 2 is white router near sofa
+Test No. 111: Picture 3 is white router near sofa
+Test No. 112: Picture 1 is white router near sofa
+Test No. 113: Picture 2 is white router near sofa
+Test No. 114: Picture 3 is white router near sofa
+Test No. 115: Picture 1 is white router near sofa
+Test No. 116: Picture 2 is white router near sofa
+Test No. 117: Picture 3 is white router near sofa
+Test No. 118: Picture 1 is white router near sofa
+Test No. 119: Picture 2 is white router near sofa
+Test No. 120: Picture 3 is white router near sofa
+Test No. 121: Picture 1 is white router near sofa
+Test No. 122: Picture 2 is white router near sofa
+Test No. 123: Picture 3 failed: Please try again. | [Error]
+Test No. 124: Picture 1 is white router near sofa
+Test No. 125: Picture 2 is white router near sofa
+Test No. 126: Picture 3 is white router near sofa
+Test No. 127: Picture 1 is white router near sofa
+Test No. 128: Picture 2 is white router near sofa
+Test No. 129: Picture 3 failed: Please try again. | [Error]
+Test No. 130: Picture 1 is white router near sofa
+Test No. 131: Picture 2 is white router near sofa
+Test No. 132: Picture 3 is white router near sofa
+Test No. 133: Picture 1 failed: Please try again. | [Error]
+Test No. 134: Picture 2 is white router near sofa
+Test No. 135: Picture 3 is white router near sofa
+Test No. 136: Picture 1 is white router near sofa
+Test No. 137: Picture 2 is white router near sofa
+Test No. 138: Picture 3 is white router near sofa
+Test No. 139: Picture 1 is white router near sofa
+Test No. 140: Picture 2 is white router near sofa
+Test No. 141: Picture 3 failed: Please try again. | [Error]
+Test No. 142: Picture 1 is white router near sofa
+Test No. 143: Picture 2 is white router near sofa
+Test No. 144: Picture 3 is white router near sofa
+Test No. 145: Picture 1 is white router near sofa
+Test No. 146: Picture 2 failed: Please try again. | [Error]
+Test No. 147: Picture 3 is white router near sofa
+Test No. 148: Picture 1 is white router near sofa
+Test No. 149: Picture 2 is white router near sofa
+Test No. 150: Picture 3 failed: Please try again. | [Error]
+Test No. 151: Picture 1 is white router near sofa
+Test No. 152: Picture 2 is white router near sofa
+Test No. 153: Picture 3 is white router near sofa
+Test No. 154: Picture 1 is white router near sofa
+Test No. 155: Picture 2 is white router near sofa
+Test No. 156: Picture 3 is white router near sofa
+Test No. 157: Picture 1 is white router near sofa
+Test No. 158: Picture 2 is white router near sofa
+Test No. 159: Picture 3 is white router near sofa
+Test No. 160: Picture 1 failed: Please try again. | [Error]
+Test No. 161: Picture 2 is white router near sofa
+Test No. 162: Picture 3 is white router near sofa
+Test No. 163: Picture 1 is white router near sofa
+Test No. 164: Picture 2 is white router near sofa
+Test No. 165: Picture 3 is white router near sofa
+Test No. 166: Picture 1 is white router near sofa
+Test No. 167: Picture 2 is white router near sofa
+Test No. 168: Picture 3 is white router near sofa
+Test No. 169: Picture 1 is white router near sofa
+Test No. 170: Picture 2 is white router near sofa
+Test No. 171: Picture 3 is white router near sofa
+Test No. 172: Picture 1 is white router near sofa
+Test No. 173: Picture 2 is white router near sofa
+Test No. 174: Picture 3 is white router near sofa
+Test No. 175: Picture 1 failed: Please try again. | [Error]
+Test No. 176: Picture 2 is white router near sofa
+Test No. 177: Picture 3 failed: Please try again. | [Error]
+Test No. 178: Picture 1 is white router near sofa
+Test No. 179: Picture 2 is white router near sofa
+Test No. 180: Picture 3 is white router near sofa
+Test No. 181: Picture 1 is white router near sofa
+Test No. 182: Picture 2 is white router near sofa
+Test No. 183: Picture 3 is white router near sofa
+Test No. 184: Picture 1 is white router near sofa
+Test No. 185: Picture 2 is white router near sofa
+Test No. 186: Picture 3 is white router near sofa
+Test No. 187: Picture 1 is white router near sofa
+Test No. 188: Picture 2 is white router near sofa
+Test No. 189: Picture 3 is white router near sofa
+Test No. 190: Picture 1 is white router near sofa
+Test No. 191: Picture 2 is white router near sofa
+Test No. 192: Picture 3 is white router near sofa
+Test No. 193: Picture 1 is white router near sofa
+Test No. 194: Picture 2 is white router near sofa
+Test No. 195: Picture 3 is white router near sofa
+Test No. 196: Picture 1 is white router near sofa
+Test No. 197: Picture 2 is white router near sofa
+Test No. 198: Picture 3 is white router near sofa
+Test No. 199: Picture 1 is white router near sofa
+Test No. 200: Picture 2 is white router near sofa
+Test No. 201: Picture 3 is white router near sofa
+Test No. 202: Picture 1 is white router near sofa
+Test No. 203: Picture 2 is white router near sofa
+Test No. 204: Picture 3 is white router near sofa
+Test No. 205: Picture 1 is white router near sofa
+Test No. 206: Picture 2 is white router near sofa
+Test No. 207: Picture 3 is white router near sofa
+Test No. 208: Picture 1 is white router near sofa
+Test No. 209: Picture 2 is white router near sofa
+Test No. 210: Picture 3 is white router near sofa
+Test No. 211: Picture 1 is white router near sofa
+Test No. 212: Picture 2 is white router near sofa
+Test No. 213: Picture 3 is white router near sofa
+Test No. 214: Picture 1 is white router near sofa
+Test No. 215: Picture 2 is white router near sofa
+Test No. 216: Picture 3 is white router near sofa
+Test No. 217: Picture 1 is white router near sofa
+Test No. 218: Picture 2 is white router near sofa
+Test No. 219: Picture 3 is white router near sofa
+Test No. 220: Picture 1 is white router near sofa
+Test No. 221: Picture 2 is white router near sofa
+Test No. 222: Picture 3 is white router near sofa
+Test No. 223: Picture 1 is white router near sofa
+Test No. 224: Picture 2 is white router near sofa
+Test No. 225: Picture 3 is white router near sofa
+Test No. 226: Picture 1 is white router near sofa
+Test No. 227: Picture 2 is white router near sofa
+Test No. 228: Picture 3 is white router near sofa
+Test No. 229: Picture 1 is white router near sofa
+Test No. 230: Picture 2 is white router near sofa
+Test No. 231: Picture 3 is white router near sofa
+Test No. 232: Picture 1 is white router near sofa
+Test No. 233: Picture 2 is white router near sofa
+Test No. 234: Picture 3 is white router near sofa
+Test No. 235: Picture 1 is white router near sofa
+Test No. 236: Picture 2 is white router near sofa
+Test No. 237: Picture 3 is white router near sofa
+Test No. 238: Picture 1 is white router near sofa
+Test No. 239: Picture 2 is white router near sofa
+Test No. 240: Picture 3 failed: Please try again. | [Error]
+Test No. 241: Picture 1 is white router near sofa
+Test No. 242: Picture 2 failed: Please try again. | [Error]
+Test No. 243: Picture 3 is white router near sofa
+Test No. 244: Picture 1 is white router near sofa
+Test No. 245: Picture 2 is white router near sofa
+Test No. 246: Picture 3 is white router near sofa
+Test No. 247: Picture 1 is white router near sofa
+Test No. 248: Picture 2 is white router near sofa
+Test No. 249: Picture 3 is white router near sofa
+Test No. 250: Picture 1 is white router near sofa
+Test No. 251: Picture 2 is white router near sofa
+Test No. 252: Picture 3 is white router near sofa
+Test No. 253: Picture 1 is white router near sofa
+Test No. 254: Picture 2 is white router near sofa
+Test No. 255: Picture 3 is white router near sofa
+Test No. 256: Picture 1 is white router near sofa
+Test No. 257: Picture 2 is white router near sofa
+Test No. 258: Picture 3 is white router near sofa
+Test No. 259: Picture 1 is white router near sofa
+Test No. 260: Picture 2 is white router near sofa
+Test No. 261: Picture 3 is white router near sofa
+Test No. 262: Picture 1 is white router near sofa
+Test No. 263: Picture 2 is white router near sofa
+Test No. 264: Picture 3 is white router near sofa
+Test No. 265: Picture 1 is white router near sofa
+Test No. 266: Picture 2 is white router near sofa
+Test No. 267: Picture 3 is white router near sofa
+Test No. 268: Picture 1 is white router near sofa
+Test No. 269: Picture 2 is white router near sofa
+Test No. 270: Picture 3 is white router near sofa
+Test No. 271: Picture 1 is white router near sofa
+Test No. 272: Picture 2 is white router near sofa
+Test No. 273: Picture 3 is white router near sofa
+Test No. 274: Picture 1 is white router near sofa
+Test No. 275: Picture 2 is white router near sofa
+Test No. 276: Picture 3 is white router near sofa
+Test No. 277: Picture 1 is white router near sofa
+Test No. 278: Picture 2 is white router near sofa
+Test No. 279: Picture 3 is white router near sofa
+Test No. 280: Picture 1 is white router near sofa
+Test No. 281: Picture 2 is white router near sofa
+Test No. 282: Picture 3 is white router near sofa
+Test No. 283: Picture 1 is white router near sofa
+Test No. 284: Picture 2 is white router near sofa
+Test No. 285: Picture 3 is white router near sofa
+Test No. 286: Picture 1 is white router near sofa
+Test No. 287: Picture 2 is white router near sofa
+Test No. 288: Picture 3 is white router near sofa
+Test No. 289: Picture 1 is white router near sofa
+Test No. 290: Picture 2 failed: Please try again. | [Error]
+Test No. 291: Picture 3 is white router near sofa
+Test No. 292: Picture 1 is white router near sofa
+Test No. 293: Picture 2 is white router near sofa
+Test No. 294: Picture 3 is white router near sofa
+Test No. 295: Picture 1 is white router near sofa
+Test No. 296: Picture 2 is white router near sofa
+Test No. 297: Picture 3 is white router near sofa
+Test No. 298: Picture 1 is white router near sofa
+Test No. 299: Picture 2 is white router near sofa
+Test No. 300: Picture 3 is white router near sofa
+Test No. 301: Picture 1 is white router near sofa
+Test No. 302: Picture 2 is white router near sofa
+Test No. 303: Picture 3 is white router near sofa
+Test No. 304: Picture 1 is white router near sofa
+Test No. 305: Picture 2 is white router near sofa
+Test No. 306: Picture 3 is white router near sofa
+Test No. 307: Picture 1 is white router near sofa
+Test No. 308: Picture 2 is white router near sofa
+Test No. 309: Picture 3 is white router near sofa
+Test No. 310: Picture 1 is white router near sofa
+Test No. 311: Picture 2 is white router near sofa
+Test No. 312: Picture 3 is white router near sofa
+Test No. 313: Picture 1 is white router near sofa
+Test No. 314: Picture 2 is white router near sofa
+Test No. 315: Picture 3 is white router near sofa
+Test No. 316: Picture 1 is white router near sofa
+Test No. 317: Picture 2 is white router near sofa
+Test No. 318: Picture 3 is white router near sofa
+Test No. 319: Picture 1 is white router near sofa
+Test No. 320: Picture 2 is white router near sofa
+Test No. 321: Picture 3 is white router near sofa
+Test No. 322: Picture 1 is white router near sofa
+Test No. 323: Picture 2 is white router near sofa
+Test No. 324: Picture 3 is white router near sofa
+Test No. 325: Picture 1 is white router near sofa
+Test No. 326: Picture 2 is white router near sofa
+Test No. 327: Picture 3 is white router near sofa
+Test No. 328: Picture 1 is white router near sofa
+Test No. 329: Picture 2 failed: Please try again. | [Error]
+Test No. 330: Picture 3 is white router near sofa
+Test No. 331: Picture 1 is white router near sofa
+Test No. 332: Picture 2 is white router near sofa
+Test No. 333: Picture 3 is white router near sofa
+Test No. 334: Picture 1 is white router near sofa
+Test No. 335: Picture 2 is white router near sofa
+Test No. 336: Picture 3 is white router near sofa
+Test No. 337: Picture 1 is white router near sofa
+Test No. 338: Picture 2 is white router near sofa
+Test No. 339: Picture 3 is white router near sofa
+Test No. 340: Picture 1 is white router near sofa
+Test No. 341: Picture 2 is white router near sofa
+Test No. 342: Picture 3 is white router near sofa
+Test No. 343: Picture 1 is white router near sofa
+Test No. 344: Picture 2 is white router near sofa
+Test No. 345: Picture 3 is white router near sofa
+Test No. 346: Picture 1 is white router near sofa
+Test No. 347: Picture 2 is white router near sofa
+Test No. 348: Picture 3 is white router near sofa
+Test No. 349: Picture 1 is white router near sofa
+Test No. 350: Picture 2 is white router near sofa
+Test No. 351: Picture 3 is white router near sofa
+Test No. 352: Picture 1 is white router near sofa
+Test No. 353: Picture 2 is white router near sofa
+Test No. 354: Picture 3 is white router near sofa
+Test No. 355: Picture 1 is white router near sofa
+Test No. 356: Picture 2 is white router near sofa
+Test No. 357: Picture 3 is white router near sofa
+Test No. 358: Picture 1 is white router near sofa
+Test No. 359: Picture 2 is white router near sofa
+Test No. 360: Picture 3 is white router near sofa
+Test No. 361: Picture 1 is white router near sofa
+Test No. 362: Picture 2 is white router near sofa
+Test No. 363: Picture 3 is white router near sofa
+Test No. 364: Picture 1 is white router near sofa
+Test No. 365: Picture 2 is white router near sofa
+Test No. 366: Picture 3 is white router near sofa
+Test No. 367: Picture 1 is white router near sofa
+Test No. 368: Picture 2 is white router near sofa
+Test No. 369: Picture 3 is white router near sofa
+Test No. 370: Picture 1 is white router near sofa
+Test No. 371: Picture 2 is white router near sofa
+Test No. 372: Picture 3 is white router near sofa
+Test No. 373: Picture 1 is white router near sofa
+Test No. 374: Picture 2 is white router near sofa
+Test No. 375: Picture 3 is white router near sofa
+Test No. 376: Picture 1 is white router near sofa
+Test No. 377: Picture 2 is white router near sofa
+Test No. 378: Picture 3 is white router near sofa
+Test No. 379: Picture 1 is white router near sofa
+Test No. 380: Picture 2 is white router near sofa
+Test No. 381: Picture 3 is white router near sofa
+Test No. 382: Picture 1 is white router near sofa
+Test No. 383: Picture 2 is white router near sofa
+Test No. 384: Picture 3 is white router near sofa
+Test No. 385: Picture 1 is white router near sofa
+Test No. 386: Picture 2 is white router near sofa
+Test No. 387: Picture 3 is white router near sofa
+Test No. 388: Picture 1 is white router near sofa
+Test No. 389: Picture 2 is white router near sofa
+Test No. 390: Picture 3 is white router near sofa
+Test No. 391: Picture 1 is white router near sofa
+Test No. 392: Picture 2 is white router near sofa
+Test No. 393: Picture 3 is white router near sofa
+Test No. 394: Picture 1 is white router near sofa
+Test No. 395: Picture 2 is white router near sofa
+Test No. 396: Picture 3 is white router near sofa
+Test No. 397: Picture 1 is white router near sofa
+Test No. 398: Picture 2 is white router near sofa
+Test No. 399: Picture 3 is white router near sofa
+Test No. 400: Picture 1 is white router near sofa
+Test No. 401: Picture 2 is white router near sofa
+Test No. 402: Picture 3 is white router near sofa
+Test No. 403: Picture 1 is white router near sofa
+Test No. 404: Picture 2 is white router near sofa
+Test No. 405: Picture 3 is white router near sofa
+Test No. 406: Picture 1 is white router near sofa
+Test No. 407: Picture 2 is white router near sofa
+Test No. 408: Picture 3 is white router near sofa
+Test No. 409: Picture 1 is white router near sofa
+Test No. 410: Picture 2 is white router near sofa
+Test No. 411: Picture 3 is white router near sofa
+Test No. 412: Picture 1 is white router near sofa
+Test No. 413: Picture 2 is white router near sofa
+Test No. 414: Picture 3 is white router near sofa
+Test No. 415: Picture 1 is white router near sofa
+Test No. 416: Picture 2 is white router near sofa
+Test No. 417: Picture 3 is white router near sofa
+Test No. 418: Picture 1 is white router near sofa
+Test No. 419: Picture 2 is white router near sofa
+Test No. 420: Picture 3 is white router near sofa
+Test No. 421: Picture 1 is white router near sofa
+Test No. 422: Picture 2 is white router near sofa
+Test No. 423: Picture 3 is white router near sofa
+Test No. 424: Picture 1 is white router near sofa
+Test No. 425: Picture 2 is white router near sofa
+Test No. 426: Picture 3 is white router near sofa
+Test No. 427: Picture 1 is white router near sofa
+Test No. 428: Picture 2 failed: Please try again. | [Error]
+Test No. 429: Picture 3 is white router near sofa
+Test No. 430: Picture 1 is white router near sofa
+Test No. 431: Picture 2 is white router near sofa
+Test No. 432: Picture 3 failed: Please try again. | [Error]
+Test No. 433: Picture 1 is white router near sofa
+Test No. 434: Picture 2 is white router near sofa
+Test No. 435: Picture 3 is white router near sofa
+Test No. 436: Picture 1 is white router near sofa
+Test No. 437: Picture 2 is white router near sofa
+Test No. 438: Picture 3 is white router near sofa
+Test No. 439: Picture 1 is white router near sofa
+Test No. 440: Picture 2 is white router near sofa
+Test No. 441: Picture 3 is white router near sofa
+Test No. 442: Picture 1 is white router near sofa
+Test No. 443: Picture 2 is white router near sofa
+Test No. 444: Picture 3 is white router near sofa
+Test No. 445: Picture 1 is white router near sofa
+Test No. 446: Picture 2 is white router near sofa
+Test No. 447: Picture 3 is white router near sofa
+Test No. 448: Picture 1 is white router near sofa
+Test No. 449: Picture 2 is white router near sofa
+Test No. 450: Picture 3 is white router near sofa
+Test No. 451: Picture 1 is white router near sofa
+Test No. 452: Picture 2 is white router near sofa
+Test No. 453: Picture 3 is white router near sofa
+Test No. 454: Picture 1 is white router near sofa
+Test No. 455: Picture 2 is white router near sofa
+Test No. 456: Picture 3 is white router near sofa
+Test No. 457: Picture 1 is white router near sofa
+Test No. 458: Picture 2 is white router near sofa
+Test No. 459: Picture 3 is white router near sofa
+Test No. 460: Picture 1 is white router near sofa
+Test No. 461: Picture 2 is white router near sofa
+Test No. 462: Picture 3 is white router near sofa
+Test No. 463: Picture 1 is white router near sofa
+Test No. 464: Picture 2 is white router near sofa
+Test No. 465: Picture 3 is white router near sofa
+Test No. 466: Picture 1 is white router near sofa
+Test No. 467: Picture 2 is white router near sofa
+Test No. 468: Picture 3 is white router near sofa
+Test No. 469: Picture 1 is white router near sofa
+Test No. 470: Picture 2 is white router near sofa
+Test No. 471: Picture 3 is white router near sofa
+Test No. 472: Picture 1 is white router near sofa
+Test No. 473: Picture 2 is white router near sofa
+Test No. 474: Picture 3 is white router near sofa
+Test No. 475: Picture 1 is white router near sofa
+Test No. 476: Picture 2 is white router near sofa
+Test No. 477: Picture 3 is white router near sofa
+Test No. 478: Picture 1 is white router near sofa
+Test No. 479: Picture 2 is white router near sofa
+Test No. 480: Picture 3 is white router near sofa
+Test No. 481: Picture 1 is white router near sofa
+Test No. 482: Picture 2 is white router near sofa
+Test No. 483: Picture 3 is white router near sofa
+Test No. 484: Picture 1 is white router near sofa
+Test No. 485: Picture 2 is white router near sofa
+Test No. 486: Picture 3 is white router near sofa
+Test No. 487: Picture 1 is white router near sofa
+Test No. 488: Picture 2 is white router near sofa
+Test No. 489: Picture 3 is white router near sofa
+Test No. 490: Picture 1 is white router near sofa
+Test No. 491: Picture 2 is white router near sofa
+Test No. 492: Picture 3 is white router near sofa
+Test No. 493: Picture 1 is white router near sofa
+Test No. 494: Picture 2 is white router near sofa
+Test No. 495: Picture 3 is white router near sofa
+Test No. 496: Picture 1 is white router near sofa
+Test No. 497: Picture 2 is white router near sofa
+Test No. 498: Picture 3 is white router near sofa
+Test No. 499: Picture 1 is white router near sofa
+Test No. 500: Picture 2 is white router near sofa
+
+Test No. 2: Picture 2 failed: Please try again.
+Test No. 4: Picture 1 failed: Please try again.
+Test No. 28: Picture 1 failed: Please try again.
+Test No. 34: Picture 1 failed: Please try again.
+Test No. 87: Picture 3 failed: Please try again.
+Test No. 100: Picture 1 failed: Please try again.
+Test No. 108: Picture 3 failed: Please try again.
+Test No. 123: Picture 3 failed: Please try again.
+Test No. 129: Picture 3 failed: Please try again.
+Test No. 133: Picture 1 failed: Please try again.
+Test No. 141: Picture 3 failed: Please try again.
+Test No. 146: Picture 2 failed: Please try again.
+Test No. 150: Picture 3 failed: Please try again.
+Test No. 160: Picture 1 failed: Please try again.
+Test No. 175: Picture 1 failed: Please try again.
+Test No. 177: Picture 3 failed: Please try again.
+Test No. 240: Picture 3 failed: Please try again.
+Test No. 242: Picture 2 failed: Please try again.
+Test No. 290: Picture 2 failed: Please try again.
+Test No. 329: Picture 2 failed: Please try again.
+Test No. 428: Picture 2 failed: Please try again.
+Test No. 432: Picture 3 failed: Please try again.
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4,858.262 sec <<< FAILURE!
+test(com.sjsu.automation.test.AppTest)  Time elapsed: 4,849.944 sec  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [22]
+  at org.testng.Assert.fail(Assert.java:94)
+  at org.testng.Assert.failNotEquals(Assert.java:513)
+  at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+  at org.testng.Assert.assertEquals(Assert.java:116)
+  at org.testng.Assert.assertEquals(Assert.java:389)
+  at org.testng.Assert.assertEquals(Assert.java:399)
+  at com.sjsu.automation.test.AppTest.test(AppTest.java:101)
+
+
+Results :
+
+Failed tests:   test(com.sjsu.automation.test.AppTest): expected [0] but found [22]
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:21 h
+[INFO] Finished at: 2019-09-21T20:08:57-07:00
+[INFO] Final Memory: 20M/267M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test: There are test failures.
+[ERROR]
+[ERROR] Please refer to /Users/KK/Documents/Projects/AIAutomation/TestAutomation/test/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

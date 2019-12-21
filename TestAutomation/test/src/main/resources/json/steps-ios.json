@@ -1,0 +1,55 @@
+{
+	"imports": [
+		"io.appium.java_client.MobileBy",
+		"java.util.concurrent.TimeUnit"
+	],
+    "steps": [{
+    	"action": "copy",
+    	"codes": [
+    		"driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);"
+    	]
+    }, {
+    	"action": "click",
+    	"target": {
+            "name": "Ok",
+            "by": "Id"
+        }
+    }, {
+   		"action": "click",
+        "target": {
+            "by": "AccessibilityId",
+            "name": "Gallery"
+        }
+    }, {
+        "action": "click",
+        "target": {
+            "by": "AccessibilityId",
+            "name": "Photo, Portrait, October 25, 14:58"
+        }
+    }, {
+    	"action": "copy",
+    	"codes": [
+    		"Thread.sleep(1000);",
+    		"MobileElement ele = (MobileElement)driver.findElement(MobileBy.className(\"XCUIElementTypeStaticText\"));",
+    		"String outputText=\"\"",
+    		"outputText = ele.getText();",
+    		"while(outputText.contains(\"in progress\")){",
+    		"\tThread.sleep(500);",
+    		"\toutputText = ele.getText();",
+    		"}",
+    		"System.out.println(outputText);"
+    	]
+    }, {
+        "action": "validate",
+        "result": {
+            "id": "outputText",
+            "condition": [{
+                "type": "contains",
+                "content": "white router"
+            }, {
+                "type": "contains",
+                "content": "sofa"
+            }]
+        }
+    }]
+}

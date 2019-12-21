@@ -1,0 +1,133 @@
+package android; 
+
+import java.awt.Color;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.concurrent.TimeUnit;
+
+import javax.imageio.ImageIO;
+
+import org.apache.commons.io.FilenameUtils;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.MobileBy;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+public class Test_@ID@ {
+
+    private AndroidDriver<MobileElement> driver; 
+
+    @BeforeTest
+    public void setup() throws MalformedURLException {
+    	Path currentRelativePath = Paths.get("asset/app/TapTapSee.apk");
+		String appPath = currentRelativePath.toAbsolutePath().toString();
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.0");
+        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
+        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
+        capabilities.setCapability(MobileCapabilityType.APP, appPath);
+        capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 2000);
+        capabilities.setCapability("appPackage", "com.msearcher.taptapsee.android");
+        capabilities.setCapability("appActivity", "com.msearcher.taptapsee.activity.SplashActivity");
+        capabilities.setCapability("autoGrantPermissions", true);
+        driver = new AndroidDriver<>(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
+    }
+
+    @Test
+    public void test() {
+        try {
+        	convertAndPushFile("@IMAGE_PATH@");
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.findElement(MobileBy.id("com.msearcher.taptapsee.android:id/accept_check_box")).click();
+            driver.findElement(MobileBy.id("com.msearcher.taptapsee.android:id/accept_button")).click();
+            driver.findElement(MobileBy.id("android:id/button1")).click();
+            driver.findElement(MobileBy.id("com.msearcher.taptapsee.android:id/library_button")).click();
+            driver.findElement(MobileBy.xpath("//android.widget.TextView[@text='Photos']")).click();
+            driver.findElement(MobileBy.xpath("//android.widget.TextView[@text='Photos']")).click();
+            driver.findElement(MobileBy.xpath("//android.widget.TextView[@text='Automation']")).click();
+            driver.findElement(MobileBy.xpath("//android.view.ViewGroup[@index=1]")).click();    
+            MobileElement textEle = (MobileElement)driver.findElement(MobileBy.xpath("//android.widget.TextView[@resource-id='com.msearcher.taptapsee.android:id/image_keytext']"));
+            String outputText = "";
+            outputText = textEle.getText();
+            while(outputText.contains("in progress")) {
+                Thread.sleep(500);
+                outputText = textEle.getText();
+            }
+            System.out.println(outputText);
+            boolean result = outputText.contains("@IMAGE_CONTENT@");
+            Assert.assertEquals(result, true);
+        } catch(Exception ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+
+
+
+    /**
+     * push file to android device
+     * @param filePath	file path
+     * @throws Exception 
+     */
+    private void convertAndPushFile(String filePath) throws Exception {
+    	String path = convertImage(filePath);
+        File imageFile = new File(path); 
+        System.out.println("input file path: " + filePath);
+        System.out.println("convert file path:" + path);
+        driver.pushFile("/mnt/sdcard/Automation/demophoto.png", imageFile);
+        Thread.sleep(1000);
+    }
+    
+    /**
+     * convert image to png format
+     * accept only GIF, PNG, JPEG, BMP, and WBMP.
+     * @param filePath
+     * @return
+     * @throws Exception IOException, CovertException
+     */
+    private String convertImage(String filePath) throws Exception {
+    	// if the input image is "jpg", do nothing
+    	String ext = FilenameUtils.getExtension(filePath).toLowerCase();
+    	if (ext.equals("jpg")) {
+    		return filePath;
+    	}    	
+    	System.out.println("Converting image...");
+    	File inputFile = new File(filePath);
+    	FileInputStream inputStream = new FileInputStream(inputFile);
+    	FileOutputStream outputStream = new FileOutputStream("asset/img/input_placeholder.jpg");
+    	BufferedImage inputImage = ImageIO.read(inputStream);
+    	// add a background
+    	BufferedImage resultImage = new BufferedImage(
+    			inputImage.getWidth(),
+                inputImage.getHeight(),
+                BufferedImage.TYPE_INT_RGB);
+        resultImage.createGraphics().drawImage(inputImage, 0, 0, Color.WHITE, null);
+    	boolean result = ImageIO.write(resultImage, "JPG", outputStream);
+    	outputStream.close();
+    	inputStream.close();
+    	if (result == false) {
+    		throw new Exception("Error during converting image");
+    	}
+    	System.out.println("Done.");
+    	return "asset/img/input_placeholder.jpg";
+    }
+
+    @AfterTest
+    public void teardown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
+}
