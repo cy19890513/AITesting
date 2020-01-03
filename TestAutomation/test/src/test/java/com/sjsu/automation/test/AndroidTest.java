@@ -31,12 +31,13 @@ public class AndroidTest {
 	
 	@BeforeTest
 	public void setup() throws MalformedURLException {
-		Path currentRelativePath = Paths.get("asset/app/TapTapSee.apk");
+		Path currentRelativePath = Paths.get("../apps/TapTapSee.apk");
 		String appPath = currentRelativePath.toAbsolutePath().toString();
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
-		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.0");
-		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
+		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.0");
+		//capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
+		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
 		capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 		capabilities.setCapability(MobileCapabilityType.APP, appPath); 
 		capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 2000);
