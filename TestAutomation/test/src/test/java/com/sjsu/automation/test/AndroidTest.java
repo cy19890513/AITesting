@@ -66,7 +66,10 @@ public class AndroidTest {
 			driver.findElement(MobileBy.id("com.msearcher.taptapsee.android:id/library_button")).click();
 			driver.findElement(MobileBy.xpath("//android.widget.TextView[@text='Image']")).click();
 			driver.findElement(MobileBy.xpath("//android.widget.TextView[@text='Automation']")).click();
-			driver.findElement(MobileBy.xpath("//android.view.ViewGroup[@index=1]")).click();
+			//TODO improve this
+            driver.findElement(MobileBy.xpath("//android.view.ViewGroup[@index=1]")).click();
+            //driver.findElement(MobileBy.xpath("//android.view.ViewGroup[@content-desc=\"Photo taken on Jan 9, 2020 11:11:48 AM.\"]")).click();
+			Thread.sleep(5000);
 			MobileElement textEle = (MobileElement)driver.findElement(MobileBy.id("com.msearcher.taptapsee.android:id/image_keytext"));
 			Thread.sleep(5000);
 			String outputText = "";
